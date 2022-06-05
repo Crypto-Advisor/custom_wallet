@@ -1,3 +1,5 @@
+//web3 js docs https://web3js.readthedocs.io/en/v1.7.3/ 
+
 //imports
 const Web3 = require('web3')
 const web3 = new Web3()
@@ -27,6 +29,9 @@ const home = () =>{
 }
 
 const createWallet = () =>{
+    //const wallet = web3.eth.accounts.wallet.create(2)
+    //const keystore = web3.eth.accounts.wallet.encrypt(password)
+    //web3.accounts.wallet.decrypt(keystore, password)
     const wallet = web3.eth.accounts.create()
     readline.question(`Password (important!): `, response => {
         if(response.length < 4){  
