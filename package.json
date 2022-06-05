@@ -1,0 +1,22 @@
+{
+  "name": "custom_wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crypto-Advisor/custom_wallet.git"
+  },
+  "author": "Adrien Navarre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crypto-Advisor/custom_wallet/issues"
+  },
+  "homepage": "https://github.com/Crypto-Advisor/custom_wallet#readme",
+  "dependencies": {
+    "web3": "^1.7.3"
+  }
+}
